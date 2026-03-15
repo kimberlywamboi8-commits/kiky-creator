@@ -1,0 +1,53 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header style */
+header {
+    background-color: #24292e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #0366d6;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Skills list */
+ul {
+    list-style-type: square;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #24292e;
+    color: white;
+}
