@@ -1,53 +1,52 @@
-/* General page style */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+body{
+    font-family: Arial;
+    margin:0;
+    background:#0b2d4d;
+    color:white;
 }
 
-/* Header style */
-header {
-    background-color: #24292e;
-    color: white;
-    text-align: center;
-    padding: 30px;
+header{
+    text-align:center;
+    padding:30px;
+    background:#061c32;
 }
 
-/* Navigation bar */
-nav {
-    background-color: #0366d6;
-    padding: 10px;
-    text-align: center;
+nav ul{
+    list-style:none;
+    padding:0;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-    font-weight: bold;
+nav ul li{
+    display:inline;
+    margin:10px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav ul li a{
+    color:#4fd1ff;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-/* Sections */
-section {
-    padding: 30px;
-    margin: 20px;
-    background: white;
-    border-radius: 8px;
+section{
+    padding:40px;
+    max-width:900px;
+    margin:auto;
 }
 
-/* Skills list */
-ul {
-    list-style-type: square;
+h2{
+    border-bottom:2px solid #4fd1ff;
+    padding-bottom:10px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #24292e;
-    color: white;
+.project{
+    background:#0f3b63;
+    padding:15px;
+    margin-top:15px;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#061c32;
 }
