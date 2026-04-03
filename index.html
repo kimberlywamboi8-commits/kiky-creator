@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiky-creator Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kimberly Wambui | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <main class="profile-shell">
+    <div class="container">
+      <p class="profile-path">Kimberly-Wambui / README.md</p>
 
-<header>
-    <h1>Kiky-creator</h1>
-    <p>Web Developer | Student Programmer</p>
+      <header class="profile-hero" id="home">
+        <div class="profile-banner">
+          <h1>Kimberly</h1>
+          <div class="banner-wave banner-wave-top" aria-hidden="true"></div>
+          <div class="banner-wave banner-wave-bottom" aria-hidden="true"></div>
+        </div>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <p class="profile-role">Web Designer | Front-End Learner | HTML | CSS | JavaScript</p>
+
+        <nav class="profile-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Tech Stack</a>
+          <a href="#contact">Contact</a>
+          <a href="week4.html">Week 4 JS</a>
+          <a href="weather.html">Weather App</a>
+        </nav>
+      </header>
+
+      <section class="profile-section" id="about">
+        <h2>About Me</h2>
+        <ul class="info-list">
+          <li>Currently learning web design and front-end development</li>
+          <li>Building practical projects that strengthen my creativity and coding confidence</li>
+          <li>Focused on clean layouts, responsive design, and improving with every project</li>
+          <li>Open to learning, collaboration, and opportunities to grow professionally</li>
         </ul>
-    </nav>
-</header>
+      </section>
 
+      <section class="profile-section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-stack">
+          <article class="project-item">
+            <span class="project-number">01</span>
+            <h3>Calculator</h3>
+            <p>Built to practice JavaScript logic, user input, and clean interface structure.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">02</span>
+            <h3>Weather App</h3>
+            <p>Created to display useful weather information in a simple responsive layout.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">03</span>
+            <h3>To-Do List</h3>
+            <p>Designed to improve my skills in interaction, organization, and front-end styling.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">04</span>
+            <h3>Student Grade Tracker</h3>
+            <p>Used arrays, objects, and functions to build a practical JavaScript learning project.</p>
+          </article>
+        </div>
+      </section>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a student learning web development and programming.
-        I enjoy building simple websites, learning HTML, CSS and JavaScript,
-        and exploring new technology.
-    </p>
-</section>
+      <section class="profile-section" id="skills">
+        <h2>Tech Stack</h2>
+        <div class="badge-list">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>Web Design</span>
+        </div>
+      </section>
 
-
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML Web Structure</li>
-        <li>CSS Website Styling</li>
-        <li>JavaScript Basics</li>
-        <li>Git and GitHub</li>
-        <li>VS Code Development</li>
-    </ul>
-</section>
-
-
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>A personal website that shows my skills and projects.</p>
+      <section class="profile-section" id="contact">
+        <h2>Contact</h2>
+        <p class="contact-copy">Interested in my work or my learning journey? Let's connect.</p>
+        <a class="contact-link" href="mailto:kimberlywamboi8@gmail.com">kimberlywamboi8@gmail.com</a>
+      </section>
     </div>
-
-    <div class="project">
-        <h3>JavaScript Mini Programs</h3>
-        <p>Programs such as Reverse String, Palindrome Checker, and FizzBuzz.</p>
-    </div>
-
-    <div class="project">
-        <h3>HTML Practice Pages</h3>
-        <p>Practice pages built to learn semantic HTML and layout design.</p>
-    </div>
-
-</section>
-
-
-<section id="contact">
-    <h2>Contact</h2>
-
-    <p>Email: kikybobo7@example.com</p>
-    <p>GitHub: github.com/kiky-creator</p>
-
-</section>
-
+  </main>
 </body>
-<footer class="portfolio-footer">
-    <p>
-        Generated using 
-        <a href="https://profilinator.rishav.dev/" target="_blank">GitHub Profilinator</a>
-    </p>
-    <p>&copy; 2026 kiky-creator. All rights reserved.</p>
-</footer>
 </html>
